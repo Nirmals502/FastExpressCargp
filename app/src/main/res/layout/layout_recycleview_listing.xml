@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/rlv_container"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/textView27"
+            android:layout_toRightOf="@+id/textView27"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login_buttonn" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/Txt_docket"
+        android:layout_alignStart="@+id/Txt_docket"
+        android:layout_below="@+id/Txt_docket"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:maxLength="100"
+        android:maxLines="1"
+        android:text="time"
+        android:textColor="#181818" />
+
+    <TextView
+        android:id="@+id/Txt_docket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/rlv_container"
+        android:layout_toRightOf="@+id/rlv_container"
+        android:text="Dockect"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_below="@+id/textView27"
+        android:layout_marginTop="12dp"
+        android:text="Remarks"
+        android:textColor="#2e2d2d" />
+
+
+</RelativeLayout>

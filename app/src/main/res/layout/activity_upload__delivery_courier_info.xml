@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="mobile.fastexpresscargp.Login_screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText2"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignRight="@+id/editText2"
+                android:layout_alignStart="@+id/editText2"
+                android:layout_below="@+id/editText2"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/login_buttonn"
+                android:text="Scan " />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edittxt_bg"
+                android:ems="10"
+                android:hint="Docket No"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="#747474"
+                android:textColorHint="#747474" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="256dp"
+                android:text="Or"
+                android:textColor="@android:color/white"
+                android:textSize="19dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/fastlogo" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/button4"
+                android:layout_alignLeft="@+id/button4"
+                android:layout_alignRight="@+id/button4"
+                android:layout_alignStart="@+id/button4"
+                android:layout_below="@+id/editText2"
+                android:layout_marginTop="106dp"
+                android:background="@drawable/login_buttonn"
+                android:text="Submit" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
